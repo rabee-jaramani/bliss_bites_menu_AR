@@ -1,0 +1,45 @@
+
+.scrollable-tabs
+    position: relative
+    width: 100%
+    .MuiTabs-root
+        // height: 50px
+        // padding-top: 2px
+    button
+        font-size: 12px
+        padding: 5px
+        .MuiAvatar-circular
+            width: 140px
+            height: 80px
+            border-radius: 5px
+    .Mui-selected
+        color: #fff !important
+        background-color: #045768
+        border: 5px solid #fff
+        border-radius: 10px
+.css-k62qqn-MuiTabs-root
+    // padding: 5px 0 3px 0
+#tabs_div
+    border-radius: 10px
+    overflow: hidden
+#tabs_div_2
+    border-radius: 10px
+    overflow: hidden
+    width: 97%
+    button
+        &::after
+            content: ''
+            position: absolute
+            right: 0
+            width: 1px
+            height: 30px
+            background-color: #87a9b0
+    .Mui-selected
+        border: 5px solid #E4EDEF
+.MuiTabs-scrollButtons
+    width: 20px !important
+.MuiTabs-indicator
+    display: none
+@media screen and (max-width:500px)
+    .scrollable-tabs
+        max-width: 100%
