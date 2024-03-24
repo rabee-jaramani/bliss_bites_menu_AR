@@ -15,17 +15,17 @@ export default function BottomNav({
 }: any) {
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setSelectedFB_type(newValue);
-    if (newValue === "Food") {
-      setSelectedCollection("BREAKFAST");
-      scrollTo("collection", "BREAKFAST");
+    if (newValue === "طعام") {
+      setSelectedCollection("فطور");
+      scrollTo("collection", "فطور");
     }
-    if (newValue === "Beverages") {
-      setSelectedCollection("BEVERAGES");
-      scrollTo("collection", "BEVERAGES");
+    if (newValue === "المشروبات") {
+      setSelectedCollection("المشروبات");
+      scrollTo("collection", "المشروبات");
     }
-    if (newValue === "Desserts") {
-      setSelectedCollection("BLISSFUL DESSERTS");
-      scrollTo("collection", "BLISSFUL DESSERTS");
+    if (newValue === "حلويات") {
+      setSelectedCollection("حلويات السعادة");
+      scrollTo("collection", "حلويات السعادة");
     }
   };
 
@@ -38,23 +38,23 @@ export default function BottomNav({
       >
         <Tab
           icon={<RestaurantIcon fontSize="small" />}
-          label="Food"
-          value="Food"
+          label="طعام"
+          value="طعام"
         />
         <Tab
           icon={<LocalBarIcon fontSize="small" />}
-          label="Beverages"
-          value="Beverages"
+          label="المشروبات"
+          value="المشروبات"
         />
         <Tab
           icon={<CookieOutlinedIcon fontSize="small" />}
-          label="Desserts"
-          value="Desserts"
+          label="حلويات"
+          value="حلويات"
         />
         <Tab
           icon={<CloudOutlinedIcon fontSize="small" />}
-          label="Cloud Kitchen"
-          value="Cloud Kitchen"
+          label="المطبخ السحابي"
+          value="المطبخ السحابي"
         />
       </Tabs>
     </div>

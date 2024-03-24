@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Banner from "./banner/Banner";
 import BottomNav from "./components/BottomNav";
 import Footer from "./footer/Footer";
-
 import { food } from "./data/food";
 import { drinks } from "./data/drinks";
 import { desserts } from "./data/desserts";
@@ -53,10 +52,10 @@ function App() {
     }
   };
   const menu_categories = [
-    ...food_categories,
-    ...drinks_categories,
-    ...desserts_categories,
     ...chef_must_have_categories,
+    ...desserts_categories,
+    ...drinks_categories,
+    ...food_categories,
   ];
 
   // state to handle fb_type change food drinks dessrts

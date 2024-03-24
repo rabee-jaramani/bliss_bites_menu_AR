@@ -12,7 +12,7 @@ const AboutUsButton = () => {
   return (
     <div className="about-us-div">
       <Button size="small" onClick={handleClick}>
-        About Us
+        معلومات عنا
       </Button>
     </div>
   );

@@ -29,7 +29,7 @@ import burger_addons from "../images/categories_addons_images/burger_addons.svg"
 
 export const vegan_plant_based = [
   {
-    parentCatName: "Vegan Plant Based",
+    parentCatName: "نباتي",
     parentCatCollection: [
       {
         categoryName: "أساي أوف ريليف ",
@@ -47,13 +47,13 @@ export const vegan_plant_based = [
               { allergyName: `Vegan`, allergySrc: vegan },
             ],
             addons_img: acai_of_relief_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "تروبيكال بون أساي",
             price: "45",
-            description: "فاكهة زهرة الآلام الطازجة، المانجا الطازجة، والجرانولا الخاصة",
+            description:
+              "فاكهة زهرة الآلام الطازجة، المانجا الطازجة، والجرانولا الخاصة",
             image: tropical_boon_acai,
             allergies: [
               { allergyName: `توصية الشيف`, allergySrc: recommended },
@@ -62,8 +62,7 @@ export const vegan_plant_based = [
               { allergyName: `Vegan`, allergySrc: vegan },
             ],
             addons_img: acai_of_relief_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "سوبر فود سنترال أساي ",
@@ -78,8 +77,7 @@ export const vegan_plant_based = [
               { allergyName: `Vegan`, allergySrc: vegan },
             ],
             addons_img: acai_of_relief_addons,
-            addons: [   
-            ],
+            addons: [],
           },
         ],
       },
@@ -102,8 +100,7 @@ export const vegan_plant_based = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: salads_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: " هيلثي هارفست",
@@ -120,8 +117,7 @@ export const vegan_plant_based = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: salads_addons,
-            addons: [
-            ],
+            addons: [],
           },
         ],
       },
@@ -145,7 +141,7 @@ export const vegan_plant_based = [
             ],
             addons: [""],
           },
-        
+
           {
             itemName: "وك تو ووك ",
             price: "50",
@@ -220,7 +216,6 @@ export const vegan_plant_based = [
             ],
             addons: [""],
           },
-         
         ],
       },
       {
@@ -280,8 +275,7 @@ export const vegan_plant_based = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: pasta_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "ألفريدو",
@@ -298,8 +292,7 @@ export const vegan_plant_based = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: pasta_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "بليس",
@@ -316,8 +309,7 @@ export const vegan_plant_based = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: pasta_addons,
-            addons: [
-            ],
+            addons: [],
           },
         ],
       },

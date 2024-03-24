@@ -36,7 +36,6 @@ import mushroom_cappuccino from "../images/items/mushroom_cappuccino.webp";
 
 import parisian from "../images/items/parisian.webp";
 
-
 import acai_of_relief_addons from "../images/categories_addons_images/acai_of_relief_addons.svg";
 import pasta_addons from "../images/categories_addons_images/pasta_addons.svg";
 import power_protine_addons from "../images/categories_addons_images/power_protine_addons.svg";
@@ -71,13 +70,13 @@ export const food = [
               { allergyName: `Vegan`, allergySrc: vegan },
             ],
             addons_img: acai_of_relief_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "تروبيكال بون أساي",
             price: "45",
-            description: "فاكهة زهرة الآلام الطازجة، المانجا الطازجة، والجرانولا الخاصة",
+            description:
+              "فاكهة زهرة الآلام الطازجة، المانجا الطازجة، والجرانولا الخاصة",
             image: tropical_boon_acai,
             allergies: [
               { allergyName: `توصية الشيف`, allergySrc: recommended },
@@ -86,8 +85,7 @@ export const food = [
               { allergyName: `Vegan`, allergySrc: vegan },
             ],
             addons_img: acai_of_relief_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "سوبر فود سنترال أساي ",
@@ -102,8 +100,7 @@ export const food = [
               { allergyName: `Vegan`, allergySrc: vegan },
             ],
             addons_img: acai_of_relief_addons,
-            addons: [   
-            ],
+            addons: [],
           },
         ],
       },
@@ -124,8 +121,7 @@ export const food = [
               },
             ],
             addons_img: power_protine_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "سبان - ايغز",
@@ -141,8 +137,7 @@ export const food = [
               },
             ],
             addons_img: power_protine_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "آي آم همبلد ",
@@ -158,8 +153,7 @@ export const food = [
               },
             ],
             addons_img: power_protine_addons,
-            addons: [
-            ],
+            addons: [],
           },
         ],
       },
@@ -199,13 +193,12 @@ export const food = [
         ],
       },
       {
-        categoryName: "French Toast - Sweet",
+        categoryName: "فرنش توست - حلويات",
         items: [
           {
             itemName: "يوك هيل فارم ",
             price: "50",
-            description:
-              "فرنش توست كلاسيكي مع الأيس كريم والتوت  ",
+            description: "فرنش توست كلاسيكي مع الأيس كريم والتوت  ",
             image: placeholder,
             allergies: [
               { allergyName: "خالي من الغلوتين", allergySrc: gluten_free },
@@ -219,8 +212,7 @@ export const food = [
           {
             itemName: "زعفران",
             price: "50",
-            description:
-              "فرنش توست مع كريمة الزعفران والفراولة الطازجة ",
+            description: "فرنش توست مع كريمة الزعفران والفراولة الطازجة ",
             image: french_toast_zaefran,
             allergies: [
               { allergyName: "خالي من الغلوتين", allergySrc: gluten_free },
@@ -234,8 +226,7 @@ export const food = [
           {
             itemName: "الخزامى",
             price: "50",
-            description:
-              "فرنش توست مع كريمة الخزامى والتوت البري ",
+            description: "فرنش توست مع كريمة الخزامى والتوت البري ",
             image: alkhuzamma,
             allergies: [
               { allergyName: "خالي من الغلوتين", allergySrc: gluten_free },
@@ -249,8 +240,7 @@ export const food = [
           {
             itemName: "المستكة",
             price: "50",
-            description:
-              "فرنش توست مع كريمة شجرة المستكة والموز المكرمل ",
+            description: "فرنش توست مع كريمة شجرة المستكة والموز المكرمل ",
             image: almastakii,
             allergies: [
               { allergyName: "خالي من الغلوتين", allergySrc: gluten_free },
@@ -361,8 +351,7 @@ export const food = [
           {
             itemName: "تونكاتسو",
             price: "50",
-            description:
-              "كاتسو مغطاة بجبنة الحلومي مع جبنة كريمة بزيت السمسم.",
+            description: "كاتسو مغطاة بجبنة الحلومي مع جبنة كريمة بزيت السمسم.",
             image: tonkatsu,
             allergies: [
               { allergyName: "توصية الشيف", allergySrc: recommended },
@@ -414,7 +403,7 @@ export const food = [
     ],
   },
   {
-    parentCatName: "ALL DAY MENU",
+    parentCatName: "قائمة طوال اليوم",
     parentCatCollection: [
       {
         categoryName: "الشوربات ",
@@ -472,8 +461,7 @@ export const food = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: salads_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: " هيلثي هارفست",
@@ -490,8 +478,7 @@ export const food = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: salads_addons,
-            addons: [
-            ],
+            addons: [],
           },
         ],
       },
@@ -680,8 +667,7 @@ export const food = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: pasta_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "ألفريدو",
@@ -698,8 +684,7 @@ export const food = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: pasta_addons,
-            addons: [
-            ],
+            addons: [],
           },
           {
             itemName: "بليس",
@@ -716,8 +701,7 @@ export const food = [
               { allergyName: "Vegan", allergySrc: vegan },
             ],
             addons_img: pasta_addons,
-            addons: [
-            ],
+            addons: [],
           },
         ],
       },

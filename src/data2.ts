@@ -8,47 +8,47 @@ import strawberry_chilli_jam_with_toast from "./images/items/strawberry_chilli_j
 
 // Note you have to add vegan and
 export const menu_collections = [
-  { menu_name: "فطور", menu_img: Breakfast },
-  { menu_name: "قائمة طوال اليوم", menu_img: All_Day_Menu },
+  { menu_name: "حلويات السعادة", menu_img: Blissful_Desserts },
+  { menu_name: "المشروبات", menu_img: Beverages },
+  { menu_name: "نباتي", menu_img: berry_bliss_acai },
   {
     menu_name: "أطباق أساسية من اختيار الشيف",
     menu_img: strawberry_chilli_jam_with_toast,
   },
-  { menu_name: "نباتي", menu_img: berry_bliss_acai },
-  { menu_name: "المشروبات", menu_img: Beverages },
-  { menu_name: "حلويات السعادة", menu_img: Blissful_Desserts },
+  { menu_name: "قائمة طوال اليوم", menu_img: All_Day_Menu },
+  { menu_name: "فطور", menu_img: Breakfast },
 ];
 
 export const food_collections = ["فطور", "قائمة طوال اليوم"];
 export const food_categories = [
-  "أساي أوف ريليف ",
-  "بروتينات الطاقة",
-  "فرنش توست - الوجبات المملحة",
-  "فرنش توست - حلويات",
-  "فرنش توست - توست",
-  "الشوربات ",
-  "السلطات",
-  "الأطباق",
-  "رابس وكريبس ",
-  " برجر بدون خبز",
   "باستا",
+  " برجر بدون خبز",
+  "رابس وكريبس ",
+  "الأطباق",
+  "السلطات",
+  "الشوربات ",
+  "فرنش توست - توست",
+  "فرنش توست - حلويات",
+  "فرنش توست - الوجبات المملحة",
+  "بروتينات الطاقة",
+  "أساي أوف ريليف ",
 ];
 export const drinks_collections = ["المشروبات"];
 export const drinks_categories = [
-  "عصائر الديتوكس",
-  "القهوة المثلجة",
-  "القهوة العضوية",
-  "شاي الأعشاب",
   "المياه",
+  "شاي الأعشاب",
+  "القهوة العضوية",
+  "القهوة المثلجة",
+  "عصائر الديتوكس",
 ];
 
 export const desserts_collections = ["حلويات السعادة"];
 export const desserts_categories = [
-  `الحلويات المفضلة لدى الشيف`,
-  "الفطائر",
-  "تشيز كيك",
-  "كيك جالور",
   "كعكة الشاي",
+  "كيك جالور",
+  "تشيز كيك",
+  "الفطائر",
+  `الحلويات المفضلة لدى الشيف`,
 ];
 export const chef_must_have_collections = ["أطباق أساسية من اختيار الشيف"];
 export const chef_must_have_categories = ["أطباق أساسية من اختيار الشيف"];
